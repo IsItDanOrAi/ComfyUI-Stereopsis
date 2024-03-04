@@ -31,3 +31,35 @@ Integration
 Requirements
 
     PyTorch: As a PyTorch-based module, it requires an environment where PyTorch is installed and configured.
+
+
+
+Frame Delay Module for Image Sequences
+Overview
+
+<img width="1196" alt="Frame Delay" src="https://github.com/IsItDanOrAi/ComfyUI-Stereopsis/assets/162214102/1b904b96-d22c-4552-bc3a-2025c6359336">
+
+The DanFrameDelay module offers a sophisticated solution for manipulating image batches by repeating and inserting frames, thereby introducing a delay effect without altering the overall batch size. This functionality is crucial in applications requiring temporal adjustments within image sequences, such as video processing, animation, and dynamic visual effects creation.
+Features
+
+    Frame Selection and Delay: Allows the selection of a specific frame within a batch and introduces a delay by repeating the selected frame a specified number of times.
+    Batch Size Maintenance: Ingeniously maintains the original batch size after frame insertion, ensuring consistency and compatibility with subsequent processing stages.
+    Customizable Parameters: Provides flexibility in selecting the frame to delay and the extent of the delay, with sensible defaults and bounds.
+
+Technical Details
+
+    Input Types: Accepts an image batch as input along with parameters to select the frame (selected_frame) and define the delay (frame_delay).
+    Return Types: Outputs an image batch where the selected frame has been repeated according to the specified delay, with the batch size kept constant.
+    PyTorch Integration: Built with PyTorch, this module seamlessly integrates into workflows that utilize PyTorch for image manipulation and tensor operations.
+
+Usage
+
+This module falls under the IsItDanOrAi2 category, indicating its relevance in advanced image processing tasks that involve dynamic temporal adjustments. It is particularly useful in scenarios where precise control over the timing of frames within a sequence is needed, such as in video editing, computer vision tasks, or any application requiring temporal manipulation of image data.
+Integration
+
+    Node Class Mappings: Identified in systems by the name Dan_FrameDelay, making it readily accessible for integration into node-based architectures or graphical programming environments focused on image processing.
+    Node Display Name Mappings: For ease of use and identification by end-users, the module is presented under the title Frame Delay in user interfaces.
+
+Requirements
+
+    PyTorch: As it relies on PyTorch for all tensor operations, having PyTorch installed and configured in the working environment is a prerequisite.
