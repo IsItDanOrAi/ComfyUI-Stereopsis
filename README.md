@@ -1,6 +1,6 @@
 # ComfyUI-Stereopsis
 
-This is an independent project trying to create a stereopsis effect for ComfyUI (Stable Diffusion). Currently, still learning how to group nodes under the same parent category, as this whole project is still getting off the ground. Currently this does work in a basic form. If you do pass along a video through Side-by-side(SBS) node with the FrameDelay on one of the inputs, you will be able to create a native stereopsis effect with any VR headset that can utilize a SBS video player. 
+This initiative represents a solo venture dedicated to integrating a stereopsis effect within ComfyUI (Stable Diffusion). Presently, the project is focused on the refinement of node categorization within a unified framework, as it is in the early stages of development. However, it has achieved functionality in a fundamental capacity. By processing a video through the Side-by-Side (SBS) node and applying Frame Delay to one of the inputs, it facilitates the creation of a stereopsis effect. This effect is compatible with any Virtual Reality headset that supports SBS video playback, offering a practical application in immersive media experiences.
 
 
 
