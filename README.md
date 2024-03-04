@@ -37,7 +37,8 @@ Requirements
 # Frame Delay Module for Image Sequences
 Overview
 
-<img width="1196" alt="Frame Delay" src="https://github.com/IsItDanOrAi/ComfyUI-Stereopsis/assets/162214102/1b904b96-d22c-4552-bc3a-2025c6359336">
+<img width="677" alt="Frame Delay" src="https://github.com/IsItDanOrAi/ComfyUI-Stereopsis/assets/162214102/a8768fa4-596e-4484-af9c-9bbda21da0f5">
+
 
 The FrameDelay module offers a sophisticated solution for manipulating image batches by repeating and inserting frames, thereby introducing a delay effect without altering the overall batch size. This functionality is crucial in applications requiring temporal adjustments within image sequences, such as video processing, animation, and dynamic visual effects creation.
 Features
