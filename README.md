@@ -1,10 +1,10 @@
 # ComfyUI-Stereopsis
 
-This is an independent project trying to create a stereopsis effect for ComfyUI (Stable Diffusion).
+This is an independent project trying to create a stereopsis effect for ComfyUI (Stable Diffusion). Currently, still learning how to group nodes under the same parent category, as this whole project is still getting off the ground. Currently this does work in a basic form. If you do pass along a video through Side-by-side(SBS) node with the FrameDelay on one of the inputs, you will be able to create a native stereopsis effect with any VR headset that can utilize a SBS video player. 
 
 
 
-Side By Side Module for Image Concatenation
+# Side By Side Module for Image Concatenation
 Overview
 
 <img width="1723" alt="Side-by-Side" src="https://github.com/IsItDanOrAi/ComfyUI-Stereopsis/assets/162214102/c4b70e1e-56ff-4010-954c-da2371b87903">
@@ -34,12 +34,12 @@ Requirements
 
 
 
-Frame Delay Module for Image Sequences
+# Frame Delay Module for Image Sequences
 Overview
 
 <img width="1196" alt="Frame Delay" src="https://github.com/IsItDanOrAi/ComfyUI-Stereopsis/assets/162214102/1b904b96-d22c-4552-bc3a-2025c6359336">
 
-The DanFrameDelay module offers a sophisticated solution for manipulating image batches by repeating and inserting frames, thereby introducing a delay effect without altering the overall batch size. This functionality is crucial in applications requiring temporal adjustments within image sequences, such as video processing, animation, and dynamic visual effects creation.
+The FrameDelay module offers a sophisticated solution for manipulating image batches by repeating and inserting frames, thereby introducing a delay effect without altering the overall batch size. This functionality is crucial in applications requiring temporal adjustments within image sequences, such as video processing, animation, and dynamic visual effects creation.
 Features
 
     Frame Selection and Delay: Allows the selection of a specific frame within a batch and introduces a delay by repeating the selected frame a specified number of times.
@@ -52,9 +52,6 @@ Technical Details
     Return Types: Outputs an image batch where the selected frame has been repeated according to the specified delay, with the batch size kept constant.
     PyTorch Integration: Built with PyTorch, this module seamlessly integrates into workflows that utilize PyTorch for image manipulation and tensor operations.
 
-Usage
-
-This module falls under the IsItDanOrAi2 category, indicating its relevance in advanced image processing tasks that involve dynamic temporal adjustments. It is particularly useful in scenarios where precise control over the timing of frames within a sequence is needed, such as in video editing, computer vision tasks, or any application requiring temporal manipulation of image data.
 Integration
 
     Node Class Mappings: Identified in systems by the name Dan_FrameDelay, making it readily accessible for integration into node-based architectures or graphical programming environments focused on image processing.
