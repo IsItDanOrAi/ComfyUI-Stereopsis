@@ -23,9 +23,6 @@ Technical Details
     Return Types: The output is a single image, which is the result of concatenating the input images side by side.
     Functionality: By leveraging the torch.cat function, it combines the input images along the width dimension, creating a seamless side-by-side image composition.
 
-Usage
-
-This module is part of the IsItDanOrAi category, indicating its utility in scenarios where distinguishing or comparing images side by side may be relevant. It is especially useful in applications involving visual comparisons, stereoscopic image generation, or any context where side-by-side image presentation is needed.
 Integration
 
     Node Class Mappings: The module is mapped under the name Dan_Stereopsis, enabling its integration into systems that utilize a node-based architecture for image processing or analysis tasks.
