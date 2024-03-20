@@ -1,6 +1,6 @@
 # ComfyUI-Stereopsis
 
-This initiative represents a solo venture dedicated to integrating a stereopsis effect within ComfyUI (Stable Diffusion). By processing a series of images through the Side-by-Side (SBS) node and applying Frame Delay to one of the inputs, it facilitates the creation of a stereopsis effect. This effect is compatible with any Virtual Reality headset that supports SBS video playback, offering a practical application in immersive media experiences.
+This initiative represents a solo venture dedicated to integrating a stereopsis effect within ComfyUI (Stable Diffusion). By processing a series of sequential images through the Side-by-Side (SBS) node and applying Frame Delay to one of the inputs, it facilitates the creation of a stereopsis effect. This effect is compatible with any Virtual Reality headset that supports SBS video playback, offering a practical application in immersive media experiences.
 
 # Side By Side Module for Image Concatenation
 **Overview**
