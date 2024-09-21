@@ -37,6 +37,7 @@ The Side_by_side module is a utility designed for concatenating two images side 
 </p>
 
 The FrameDelay module offers a sophisticated solution for manipulating image batches by repeating and inserting frames, thereby introducing a delay effect without altering the overall batch size. This functionality is crucial in applications requiring temporal adjustments within image sequences, such as video processing, animation, and dynamic visual effects creation.
+
 **Features**
 
    Frame Selection and Delay: Allows the selection of a specific frame within a batch and introduces a delay by repeating the selected frame a specified number of times.
